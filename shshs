@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRAGON APK 🐉 - 1 Key = 1 Máy</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif}body{background:linear-gradient(135deg,#1a2a6c 0%,#b21f1f 50%,#fdbb2d 100%);color:#fff;min-height:100vh;display:flex;align-items:center;justify-content:center;overflow:hidden;position:relative}.particle{position:absolute;width:4px;height:4px;background-color:rgba(255,255,255,.5);border-radius:50%;animation:float linear infinite;z-index:0}@keyframes float{to{transform:translateY(-100vh) rotate(360deg)}}.login-container{background:rgba(15,23,42,.95);border-radius:20px;padding:40px;width:100%;max-width:500px;text-align:center;border:1px solid rgba(255,255,255,.1);box-shadow:0 20px 40px rgba(0,0,0,.3);position:relative;z-index:2}.app-icon{width:80px;height:80px;background:linear-gradient(135deg,#ff8a00 0%,#e52e71 100%);border-radius:16px;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;font-size:40px;color:#fff}h1{font-size:28px;font-weight:700;margin-bottom:10px;background:linear-gradient(90deg,#ff8a00,#e52e71);-webkit-background-clip:text;-webkit-text-fill-color:transparent}.subtitle{font-size:16px;color:#94a3b8;margin-bottom:30px}.login-form{margin-top:30px}.form-group{margin-bottom:20px;text-align:left}label{display:block;margin-bottom:8px;font-weight:600;color:#e2e8f0}.key-input{width:100%;padding:15px;border:1px solid rgba(255,255,255,.2);border-radius:10px;background:rgba(30,41,59,.8);color:#fff;font-size:16px;text-align:center;letter-spacing:2px;transition:all .3s}.key-input:focus{outline:none;border-color:#3b82f6;box-shadow:0 0 0 3px rgba(59,130,246,.2)}.login-btn{width:100%;background:linear-gradient(135deg,#10b981 0%,#059669 100%);color:#fff;border:none;border-radius:10px;padding:15px;font-size:18px;font-weight:600;cursor:pointer;transition:transform .2s;margin-top:10px}.login-btn:hover{transform:translateY(-2px)}.login-btn:active{transform:translateY(0)}.notification{position:fixed;top:20px;right:20px;background:rgba(15,23,42,.95);border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:12px 16px;color:#fff;font-size:14px;box-shadow:0 4px 12px rgba(0,0,0,.3);transform:translateX(120%);transition:transform .3s ease;z-index:1000}.notification.show{transform:translateX(0)}.notification.success{border-left:4px solid #10b981}.notification.error{border-left:4px solid #ef4444}.notification.warning{border-left:4px solid #f59e0b}.hint{margin-top:20px;padding:15px;background:rgba(30,41,59,.7);border-radius:10px;font-size:14px;color:#94a3b8}.hint strong{color:#e2e8f0}.main-content{display:none;width:100%}.logout-btn{position:fixed;top:20px;right:20px;background:rgba(239,68,68,.8);color:#fff;border:none;border-radius:8px;padding:10px 15px;font-size:14px;cursor:pointer;z-index:100;transition:background .3s}.logout-btn:hover{background:rgba(239,68,68,1)}.device-info{background:rgba(30,41,59,.7);border-radius:10px;padding:15px;margin-top:15px;font-size:12px;color:#94a3b8}.admin-section{background:rgba(30,41,59,.7);border-radius:10px;padding:20px;margin-top:20px;border:1px solid rgba(59,130,246,.5);display:none}.admin-visible{display:block!important}.admin-btn{background:linear-gradient(135deg,#3b82f6 0%,#1d4ed8 100%);color:#fff;border:none;border-radius:8px;padding:10px 15px;font-size:14px;cursor:pointer;margin:5px}.key-display{background:rgba(15,23,42,.8);border-radius:8px;padding:15px;margin:10px 0;font-family:monospace;font-size:16px;color:#10b981;border:1px solid rgba(16,185,129,.5)}.admin-login-btn{background:linear-gradient(135deg,#f59e0b 0%,#d97706 100%);color:#fff;border:none;border-radius:6px;padding:8px 12px;font-size:12px;cursor:pointer;margin-top:10px}.app-container{max-width:400px;margin:0 auto;padding:20px;background:rgba(15,23,42,.9);border-radius:20px;border:1px solid rgba(255,255,255,.1);box-shadow:0 20px 40px rgba(0,0,0,.3);position:relative}.app-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;padding-bottom:15px;border-bottom:1px solid rgba(255,255,255,.1)}.app-title{font-size:22px;font-weight:700;color:#e2e8f0}.status-bar{display:flex;align-items:center;color:#94a3b8;font-size:14px}.battery{margin-left:10px}.features-section{margin-bottom:25px}.feature-item{display:flex;align-items:center;margin-bottom:15px;padding:15px;background:rgba(30,41,59,.7);border-radius:12px;transition:all .3s;position:relative}.feature-item.active{background:rgba(16,185,129,.2);border:1px solid rgba(16,185,129,.5)}.feature-icon{width:50px;height:50px;background:rgba(59,130,246,.2);border-radius:12px;display:flex;align-items:center;justify-content:center;margin-right:15px;font-size:24px}.feature-content{flex:1}.feature-name{font-weight:600;color:#e2e8f0;margin-bottom:5px}.feature-desc{font-size:14px;color:#94a3b8}.feature-toggle{width:50px;height:26px;background:rgba(255,255,255,.2);border-radius:13px;position:relative;cursor:pointer;transition:background .3s}.feature-toggle.active{background:#10b981}.toggle-knob{width:20px;height:20px;background:#fff;border-radius:50%;position:absolute;top:3px;left:3px;transition:transform .3s}.feature-toggle.active .toggle-knob{transform:translateX(24px)}.one-device-badge{background:linear-gradient(135deg,#8b5cf6 0%,#7c3aed 100%);color:#fff;padding:4px 8px;border-radius:12px;font-size:10px;margin-left:10px}.sample-keys{background:rgba(59,130,246,0.2);border-radius:8px;padding:10px;margin-top:10px;font-size:12px}.pricing-table{background:rgba(30,41,59,.7);border-radius:12px;padding:20px;margin:20px 0;border:1px solid rgba(255,255,255,.1)}.pricing-header{text-align:center;margin-bottom:20px}.pricing-header h3{font-size:20px;margin-bottom:5px;color:#e2e8f0}.pricing-header p{color:#94a3b8;font-size:14px}.pricing-plans{display:grid;grid-template-columns:1fr 1fr 1fr;gap:15px;margin-bottom:20px}.pricing-plan{background:rgba(15,23,42,.8);border-radius:10px;padding:20px;text-align:center;border:2px solid rgba(255,255,255,.1);transition:all .3s;cursor:pointer}.pricing-plan:hover{transform:translateY(-5px);border-color:#3b82f6}.pricing-plan.popular{border-color:#f59e0b;position:relative}.pricing-plan.popular::before{content:"Phổ Biến";position:absolute;top:-10px;left:50%;transform:translateX(-50%);background:#f59e0b;color:#fff;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600}.plan-name{font-size:16px;font-weight:600;margin-bottom:10px;color:#e2e8f0}.plan-price{font-size:24px;font-weight:700;margin-bottom:5px;color:#10b981}.plan-period{font-size:12px;color:#94a3b8;margin-bottom:15px}.plan-features{list-style:none;margin-bottom:20px}.plan-features li{font-size:12px;color:#94a3b8;margin-bottom:5px;padding-left:15px;position:relative}.plan-features li::before{content:"✓";position:absolute;left:0;color:#10b981}.buy-btn{width:100%;background:linear-gradient(135deg,#8b5cf6 0%,#7c3aed 100%);color:#fff;border:none;border-radius:8px;padding:10px;font-size:14px;font-weight:600;cursor:pointer;transition:transform .2s}.buy-btn:hover{transform:translateY(-2px)}.key-type-selector{margin:15px 0}.key-type-btn{width:100%;background:rgba(30,41,59,.8);border:1px solid rgba(255,255,255,.2);color:#fff;border-radius:8px;padding:12px;margin:5px 0;cursor:pointer;transition:all .3s;text-align:left}.key-type-btn:hover{background:rgba(59,130,246,.2);border-color:#3b82f6}.key-type-btn.active{background:linear-gradient(135deg,#3b82f6 0%,#1d4ed8 100%);border-color:#3b82f6}.key-type-info{display:flex;justify-content:space-between;align-items:center}.key-type-name{font-weight:600}.key-type-price{color:#10b981;font-weight:600}.key-type-duration{font-size:12px;color:#94a3b8}
+    </style>
+</head>
+<body>
+    <script>
+        // ==================== HỆ THỐNG BẢO MẬT ====================
+        const ADMIN_PASSWORD = "duc_lam_key_1201";
+
+        // ==================== HỆ THỐNG KEY THEO THỜI GIAN ====================
+        function generateDailyKey() {
+            const today = new Date();
+            const dateStr = today.toISOString().slice(0,10).replace(/-/g, '');
+            const random = Math.random().toString(36).substring(2, 8).toUpperCase();
+            return `DRAGON-D-${dateStr}-${random}`;
+        }
+
+        function generateWeeklyKey() {
+            const today = new Date();
+            const startOfWeek = new Date(today.setDate(today.getDate() - today.getDay()));
+            const weekStr = startOfWeek.toISOString().slice(0,10).replace(/-/g, '').slice(0,6);
+            const random = Math.random().toString(36).substring(2, 10).toUpperCase();
+            return `DRAGON-W-${weekStr}-${random}`;
+        }
+
+        function generateMonthlyKey() {
+            const today = new Date();
+            const monthStr = today.toISOString().slice(0,7).replace(/-/g, '');
+            const random = Math.random().toString(36).substring(2, 12).toUpperCase();
+            return `DRAGON-M-${monthStr}-${random}`;
+        }
+
+        function generateRandomKey() {
+            const prefix = "DRAGON";
+            const timestamp = Date.now().toString().slice(-6);
+            const random = Math.random().toString(36).substring(2, 8).toUpperCase();
+            return `${prefix}-${timestamp}-${random}`;
+        }
+
+        // ==================== BẢNG GIÁ ====================
+        const PRICING = {
+            daily: { price: 10000, duration: "1 Ngày", name: "GÓI NGÀY" },
+            weekly: { price: 50000, duration: "7 Ngày", name: "GÓI TUẦN" },
+            monthly: { price: 120000, duration: "30 Ngày", name: "GÓI THÁNG" }
+        };
+
+        // Tạo device ID
+        function generateDeviceId() {
+            return 'USER-' + Math.random().toString(36).substring(2, 8).toUpperCase();
+        }
+
+        const CURRENT_DEVICE_ID = generateDeviceId();
+
+        function isAdmin() {
+            return localStorage.getItem('dragon_admin') === 'true';
+        }
+
+        function loginAsAdmin() {
+            const password = prompt("🔐 NHẬP MẬT KHẨU ADMIN:");
+            if (password === ADMIN_PASSWORD) {
+                localStorage.setItem('dragon_admin', 'true');
+                showNotification('✅ Đăng nhập Admin thành công!', 'success');
+                setupAdminPanel();
+                return true;
+            } else {
+                showNotification('❌ Mật khẩu không đúng!', 'error');
+                return false;
+            }
+        }
+
+        function logoutAdmin() {
+            localStorage.removeItem('dragon_admin');
+            showNotification('Đã đăng xuất Admin!', 'info');
+            setupAdminPanel();
+        }
+
+        function setupAdminPanel() {
+            const adminSection = document.getElementById('admin-section');
+            const adminLoginBtn = document.getElementById('admin-login-btn');
+            const adminLogoutBtn = document.getElementById('admin-logout-btn');
+            
+            if (isAdmin()) {
+                adminSection.classList.add('admin-visible');
+                if (adminLoginBtn) adminLoginBtn.style.display = 'none';
+                if (adminLogoutBtn) adminLogoutBtn.style.display = 'inline-block';
+            } else {
+                adminSection.classList.remove('admin-visible');
+                if (adminLoginBtn) adminLoginBtn.style.display = 'inline-block';
+                if (adminLogoutBtn) adminLogoutBtn.style.display = 'none';
+            }
+        }
+
+        // 🔥 VALIDATE KEY THEO LOẠI
+        function validateUserKey(inputKey) {
+            const key = inputKey.toUpperCase().trim();
+            
+            const usedKeys = JSON.parse(localStorage.getItem('used_keys') || '{}');
+            
+            // Kiểm tra định dạng key
+            const keyPatterns = [
+                /^DRAGON-D-\d{8}-[A-Z0-9]{6}$/,  // Daily
+                /^DRAGON-W-\d{6}-[A-Z0-9]{8}$/,  // Weekly  
+                /^DRAGON-M-\d{6}-[A-Z0-9]{10}$/, // Monthly
+                /^DRAGON-\d{6}-[A-Z0-9]{6}$/     // Random
+            ];
+            
+            const isValidFormat = keyPatterns.some(pattern => pattern.test(key));
+            if (!isValidFormat) {
+                return { valid: false, message: 'Key không đúng định dạng!' };
+            }
+            
+            // Kiểm tra key đã được dùng chưa
+            if (usedKeys[key]) {
+                if (usedKeys[key] === CURRENT_DEVICE_ID) {
+                    return { valid: true, message: 'Key hợp lệ!' };
+                } else {
+                    return { valid: false, message: 'Key đã được sử dụng trên máy khác!' };
+                }
+            } else {
+                usedKeys[key] = CURRENT_DEVICE_ID;
+                localStorage.setItem('used_keys', JSON.stringify(usedKeys));
+                return { valid: true, message: 'Key hợp lệ! Đã kích hoạt thành công.' };
+            }
+        }
+
+        // Tạo key theo loại
+        function createNewKey(type = 'random') {
+            if (!isAdmin()) {
+                showNotification('❌ Chỉ Admin mới được tạo key!', 'error');
+                return null;
+            }
+
+            let newKey;
+            switch(type) {
+                case 'daily':
+                    newKey = generateDailyKey();
+                    break;
+                case 'weekly':
+                    newKey = generateWeeklyKey();
+                    break;
+                case 'monthly':
+                    newKey = generateMonthlyKey();
+                    break;
+                default:
+                    newKey = generateRandomKey();
+            }
+            
+            showNotification(`✅ Đã tạo key ${type} mới: ${newKey}`, 'success');
+            return newKey;
+        }
+
+        // ==================== BẢNG GIÁ ====================
+        function showPricingTable() {
+            const pricingHTML = `
+                <div class="pricing-table">
+                    <div class="pricing-header">
+                        <h3>🎯 BẢNG GIÁ KEY</h3>
+                        <p>Chọn gói phù hợp với nhu cầu của bạn</p>
+                    </div>
+                    <div class="pricing-plans">
+                        <div class="pricing-plan">
+                            <div class="plan-name">GÓI NGÀY</div>
+                            <div class="plan-price">10.000₫</div>
+                            <div class="plan-period">/ 1 ngày sử dụng</div>
+                            <ul class="plan-features">
+                                <li>Tất cả tính năng cao cấp</li>
+                                <li>Hỗ trợ 24/7</li>
+                                <li>Cập nhật miễn phí</li>
+                            </ul>
+                            <button class="buy-btn" onclick="selectKeyType('daily')">CHỌN GÓI</button>
+                        </div>
+                        
+                        <div class="pricing-plan popular">
+                            <div class="plan-name">GÓI TUẦN</div>
+                            <div class="plan-price">50.000₫</div>
+                            <div class="plan-period">/ 7 ngày sử dụng</div>
+                            <ul class="plan-features">
+                                <li>Tất cả tính năng cao cấp</li>
+                                <li>Hỗ trợ 24/7</li>
+                                <li>Cập nhật miễn phí</li>
+                                <li>Tiết kiệm 28%</li>
+                            </ul>
+                            <button class="buy-btn" onclick="selectKeyType('weekly')">CHỌN GÓI</button>
+                        </div>
+                        
+                        <div class="pricing-plan">
+                            <div class="plan-name">GÓI THÁNG</div>
+                            <div class="plan-price">120.000₫</div>
+                            <div class="plan-period">/ 30 ngày sử dụng</div>
+                            <ul class="plan-features">
+                                <li>Tất cả tính năng cao cấp</li>
+                                <li>Hỗ trợ 24/7</li>
+                                <li>Cập nhật miễn phí</li>
+                                <li>Tiết kiệm 60%</li>
+                            </ul>
+                            <button class="buy-btn" onclick="selectKeyType('monthly')">CHỌN GÓI</button>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            document.getElementById('pricing-section').innerHTML = pricingHTML;
+        }
+
+        function selectKeyType(type) {
+            // Xóa active class từ tất cả các nút
+            document.querySelectorAll('.key-type-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Thêm active class cho nút được chọn
+            const selectedBtn = document.querySelector(`[onclick="selectKeyType('${type}')"]`);
+            if (selectedBtn) {
+                selectedBtn.classList.add('active');
+            }
+            
+            showNotification(`✅ Đã chọn gói ${PRICING[type].name} - ${PRICING[type].price.toLocaleString()}₫`, 'success');
+        }
+
+        // ==================== OFFSET FUNCTIONS ====================
+        function cpuTurbo(cb){ if(cb.checked) showNotification('⚡ CPU Turbo đã kích hoạt!', 'success'); }
+        function ramCleaner(cb){ if(cb.checked) showNotification('🧹 RAM Cleaner đã kích hoạt!', 'success'); }
+        function thermalControl(cb){ if(cb.checked) showNotification('❄️ Thermal Control đã kích hoạt!', 'success'); }
+        function aimAssist(cb){ if(cb.checked) showNotification('🎯 Aim Assist đã kích hoạt!', 'success'); }
+        function fpsUnlock(cb){ if(cb.checked) showNotification('🔄 FPS Unlock đã kích hoạt!', 'success'); }
+        function noRecoil(cb){ if(cb.checked) showNotification('🎯 No Recoil đã kích hoạt!', 'success'); }
+        function dnsBoost(cb){ if(cb.checked) showNotification('🚀 DNS Boost đã kích hoạt!', 'success'); }
+        function vpnShield(cb){ if(cb.checked) showNotification('🛡️ VPN Shield đã kích hoạt!', 'success'); }
+
+        // ==================== CÁC HÀM HỖ TRỢ ====================
+        function createParticles() {
+            const body = document.body;
+            for (let i = 0; i < 20; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('particle');
+                particle.style.left = Math.random() * 100 + 'vw';
+                particle.style.top = Math.random() * 100 + 'vh';
+                particle.style.width = (Math.random() * 3 + 2) + 'px';
+                particle.style.height = particle.style.width;
+                particle.style.animationDuration = (Math.random() * 15 + 10) + 's';
+                particle.style.animationDelay = Math.random() * 5 + 's';
+                body.appendChild(particle);
+            }
+        }
+        
+        function showNotification(message, type = 'info') {
+            const notification = document.createElement('div');
+            notification.className = `notification ${type}`;
+            notification.textContent = message;
+            document.body.appendChild(notification);
+            
+            setTimeout(() => notification.classList.add('show'), 100);
+            setTimeout(() => {
+                notification.classList.remove('show');
+                setTimeout(() => document.body.removeChild(notification), 300);
+            }, 4000);
+        }
+        
+        function validateLogin() {
+            const keyInput = document.getElementById('login-key');
+            const key = keyInput.value.trim();
+            
+            if (!key) {
+                showNotification('❌ Vui lòng nhập key!', 'error');
+                return;
+            }
+            
+            const result = validateUserKey(key);
+            
+            if (result.valid) {
+                showNotification('✅ ' + result.message, 'success');
+                localStorage.setItem('dragon_logged_in', 'true');
+                localStorage.setItem('registered_key', key);
+                localStorage.setItem('user_device_id', CURRENT_DEVICE_ID);
+                
+                setTimeout(() => {
+                    document.getElementById('login-page').style.display = 'none';
+                    document.getElementById('main-content').style.display = 'block';
+                    document.title = 'DRAGON APK 🐉 - Đã Kích Hoạt';
+                    updateDeviceInfo();
+                    unlockAllFeatures();
+                }, 1000);
+            } else {
+                showNotification('❌ ' + result.message, 'error');
+                keyInput.value = '';
+                keyInput.focus();
+            }
+        }
+        
+        function checkLoginStatus() {
+            if (localStorage.getItem('dragon_logged_in') === 'true') {
+                document.getElementById('login-page').style.display = 'none';
+                document.getElementById('main-content').style.display = 'block';
+                updateDeviceInfo();
+                unlockAllFeatures();
+            }
+        }
+        
+        function logout() {
+            localStorage.removeItem('dragon_logged_in');
+            document.getElementById('main-content').style.display = 'none';
+            document.getElementById('login-page').style.display = 'flex';
+            document.title = 'Đăng Nhập - DRAGON APK 🐉';
+            showNotification('Đã đăng xuất thành công!', 'success');
+        }
+
+        function unlockAllFeatures() {
+            document.querySelectorAll('.feature-item').forEach(feature => {
+                feature.classList.remove('feature-locked');
+                const toggle = feature.querySelector('.feature-toggle');
+                toggle.style.pointerEvents = 'auto';
+                toggle.style.opacity = '1';
+            });
+        }
+
+        function updateDeviceInfo() {
+            const deviceInfo = document.getElementById('device-info');
+            const registeredKey = localStorage.getItem('registered_key') || 'Chưa đăng ký';
+            deviceInfo.innerHTML = `
+                <strong>User ID:</strong> ${CURRENT_DEVICE_ID}<br>
+                <strong>Key đã đăng ký:</strong> ${registeredKey}<br>
+                <strong style="color: #10b981;">✓ Tất cả tính năng đã mở khóa</strong>
+                <span class="one-device-badge">1 KEY = 1 MÁY</span>
+            `;
+        }
+
+        function showCurrentDeviceKey(type = 'random') {
+            const currentKey = createNewKey(type);
+            if (currentKey) {
+                document.getElementById('key-display').innerHTML = 
+                    `<div class="key-display">${currentKey}</div>`;
+            }
+        }
+
+        function showAllKeys() {
+            if (!isAdmin()) {
+                showNotification('❌ Chỉ Admin mới được xem danh sách key!', 'error');
+                return;
+            }
+
+            const usedKeys = JSON.parse(localStorage.getItem('used_keys') || '{}');
+            const keysList = document.getElementById('keys-list');
+            
+            let html = '<h4>📋 Danh sách Key Đã Tạo:</h4>';
+            if (Object.keys(usedKeys).length === 0) {
+                html += '<p>Chưa có key nào được tạo.</p>';
+            } else {
+                Object.keys(usedKeys).forEach((key, index) => {
+                    const isCurrentDevice = usedKeys[key] === CURRENT_DEVICE_ID;
+                    html += `
+                        <div class="key-display" style="margin: 10px 0; ${isCurrentDevice ? 'border: 2px solid #10b981; background: rgba(16,185,129,0.1)' : 'border: 2px solid #ef4444; background: rgba(239,68,68,0.1)'}">
+                            <strong>Key ${index + 1}:</strong> ${key}<br>
+                            <small>Trạng thái: ${isCurrentDevice ? '✅ Đang dùng trên máy này' : '❌ Đã dùng trên máy khác'}</small><br>
+                            <small>Máy đã dùng: ${usedKeys[key]}</small><br>
+                        </div>
+                    `;
+                });
+            }
+            keysList.innerHTML = html;
+        }
+        
+        // ==================== INIT ====================
+        window.addEventListener('DOMContentLoaded', function() {
+            createParticles();
+            checkLoginStatus();
+            setupAdminPanel();
+            showPricingTable();
+            
+            document.getElementById('login-form').addEventListener('submit', function(e) {
+                e.preventDefault();
+                validateLogin();
+            });
+            
+            document.getElementById('login-key').focus();
+        });
+
+        function toggleFeature(featureId) {
+            const feature = document.getElementById(featureId);
+            const toggle = feature.querySelector('.feature-toggle');
+            
+            if (toggle.classList.contains('active')) {
+                toggle.classList.remove('active');
+                feature.classList.remove('active');
+                showNotification(`Đã tắt ${feature.querySelector('.feature-name').textContent}`, 'info');
+            } else {
+                toggle.classList.add('active');
+                feature.classList.add('active');
+                showNotification(`Đã bật ${feature.querySelector('.feature-name').textContent}`, 'success');
+            }
+        }
+
+        // Gán hàm vào window
+        window.loginAsAdmin = loginAsAdmin;
+        window.logoutAdmin = logoutAdmin;
+        window.showCurrentDeviceKey = showCurrentDeviceKey;
+        window.showAllKeys = showAllKeys;
+        window.logout = logout;
+        window.toggleFeature = toggleFeature;
+        window.cpuTurbo = cpuTurbo;
+        window.ramCleaner = ramCleaner;
+        window.thermalControl = thermalControl;
+        window.aimAssist = aimAssist;
+        window.fpsUnlock = fpsUnlock;
+        window.noRecoil = noRecoil;
+        window.dnsBoost = dnsBoost;
+        window.vpnShield = vpnShield;
+        window.selectKeyType = selectKeyType;
+    </script>
+
+    <!-- Trang đăng nhập -->
+    <div id="login-page">
+        <div class="login-container">
+            <div class="app-icon">🐉</div>
+            <h1>DRAGON APK 🐉</h1>
+            <div class="subtitle">1 Key = 1 Máy - Bảo vệ bản quyền</div>
+            
+            <form class="login-form" id="login-form">
+                <div class="form-group">
+                    <label for="login-key">KEY KÍCH HOẠT</label>
+                    <input type="text" class="key-input" id="login-key" placeholder="Nhập key kích hoạt" required>
+                    <small style="color: #94a3b8; display: block; margin-top: 5px;">
+                        Mỗi key chỉ sử dụng được trên 1 máy duy nhất
+                    </small>
+                </div>
+                
+                <button type="submit" class="login-btn">KÍCH HOẠT</button>
+            </form>
+
+            <!-- BẢNG GIÁ -->
+            <div id="pricing-section"></div>
+
+            <div class="device-info">
+                <div class="sample-keys">
+                    <strong>🔑 Mua Key:</strong><br>
+                  •Zalo:0833286455<br>
+•facebook:https://www.facebook.com/share/1A5tPe8Ew6/?mibextid=wwXIfr <br>
+
+                </div>
+            </div>
+
+            <!-- Nút đăng nhập admin -->
+            <div style="text-align: center; margin: 15px 0;">
+                <button class="admin-login-btn" id="admin-login-btn" onclick="loginAsAdmin()">
+                    🔐 Đăng Nhập Admin
+                </button>
+                <button class="admin-login-btn" id="admin-logout-btn" onclick="logoutAdmin()" style="display: none; background: #ef4444;">
+                    🚪 Đăng Xuất Admin
+                </button>
+            </div>
+
+            <!-- Phần quản lý key (CHỈ HIỆN VỚI ADMIN) -->
+            <div class="admin-section" id="admin-section">
+                <h3 style="text-align: center; margin-bottom: 15px;">👑 Quản Lý Key - ADMIN</h3>
+                
+                <div class="key-type-selector">
+                    <button class="key-type-btn" onclick="selectKeyType('daily')">
+                        <div class="key-type-info">
+                            <span class="key-type-name">Key Ngày</span>
+                            <span class="key-type-price">10.000₫</span>
+                        </div>
+                        <div class="key-type-duration">1 ngày sử dụng</div>
+                    </button>
+                    <button class="key-type-btn" onclick="selectKeyType('weekly')">
+                        <div class="key-type-info">
+                            <span class="key-type-name">Key Tuần</span>
+                            <span class="key-type-price">50.000₫</span>
+                        </div>
+                        <div class="key-type-duration">7 ngày sử dụng</div>
+                    </button>
+                    <button class="key-type-btn" onclick="selectKeyType('monthly')">
+                        <div class="key-type-info">
+                            <span class="key-type-name">Key Tháng</span>
+                            <span class="key-type-price">120.000₫</span>
+                        </div>
+                        <div class="key-type-duration">30 ngày sử dụng</div>
+                    </button>
+                </div>
+                
+                <div style="text-align: center; margin-bottom: 15px;">
+                    <button class="admin-btn" onclick="showCurrentDeviceKey('daily')">Tạo Key Ngày</button>
+                    <button class="admin-btn" onclick="showCurrentDeviceKey('weekly')">Tạo Key Tuần</button>
+                    <button class="admin-btn" onclick="showCurrentDeviceKey('monthly')">Tạo Key Tháng</button>
+                    <button class="admin-btn" onclick="showAllKeys()">Xem Tất Cả Key</button>
+                </div>
+                
+                <div id="key-display"></div>
+                <div id="keys-list"></div>
+            </div>
+            
+            <div class="hint">
+                <strong>Hệ thống bảo vệ:</strong><br>
+                • Key theo ngày/tuần/tháng<br>
+                • 1 key chỉ cho 1 máy sử dụng<br>
+                • Key hết hạn không thể gia hạn<br>
+                • Mua key mới khi hết hạn
+            </div>
+        </div>
+    </div>
+
+    <!-- Nội dung chính (sau khi đăng nhập) -->
+    <div id="main-content" class="main-content">
+        <button class="logout-btn" onclick="logout()">ĐĂNG XUẤT</button>
+
+        <div class="app-container">
+            <div class="app-header">
+                <div class="app-title">DRAGON APK <span class="one-device-badge">1 KEY = 1 MÁY</span></div>
+                <div class="status-bar">
+                    <span>VinaPhone</span>
+                    <span style="margin: 0 10px;">11:15</span>
+                    <span class="battery">82%</span>
+                </div>
+            </div>
+
+            <div class="device-info" id="device-info"></div>
+            
+            <div class="features-section">
+                <div class="feature-item" id="cpu-turbo">
+                    <div class="feature-icon">⚡</div>
+                    <div class="feature-content">
+                        <div class="feature-name">CPU Turbo</div>
+                        <div class="feature-desc">Tối ưu hiệu năng CPU</div>
+                    </div>
+                    <div class="feature-toggle" onclick="toggleFeature('cpu-turbo')">
+                        <div class="toggle-knob"></div>
+                    </div>
+                    <input type="checkbox" style="display: none;" onchange="cpuTurbo(this)">
+                </div>
+                
+                <div class="feature-item" id="ram-cleaner">
+                    <div class="feature-icon">🧹</div>
+                    <div class="feature-content">
+                        <div class="feature-name">RAM Cleaner</div>
+                        <div class="feature-desc">Dọn dẹp RAM</div>
+                    </div>
+                    <div class="feature-toggle" onclick="toggleFeature('ram-cleaner')">
+                        <div class="toggle-knob"></div>
+                    </div>
+                    <input type="checkbox" style="display: none;" onchange="ramCleaner(this)">
+                </div>
+                
+                <div class="feature-item" id="thermal-control">
+                    <div class="feature-icon">❄️</div>
+                    <div class="feature-content">
+                        <div class="feature-name">Thermal Control</div>
+                        <div class="feature-desc">Kiểm soát nhiệt độ</div>
+                    </div>
+                    <div class="feature-toggle" onclick="toggleFeature('thermal-control')">
+                        <div class="toggle-knob"></div>
+                    </div>
+                    <input type="checkbox" style="display: none;" onchange="thermalControl(this)">
+                </div>
+
+                <div class="feature-item" id="aim-assist">
+                    <div class="feature-icon">🎯</div>
+                    <div class="feature-content">
+                        <div class="feature-name">Aim Assist</div>
+                        <div class="feature-desc">Hỗ trợ ngắm bắn</div>
+                    </div>
+                    <div class="feature-toggle" onclick="toggleFeature('aim-assist')">
+                        <div class="toggle-knob"></div>
+                    </div>
+                    <input type="checkbox" style="display: none;" onchange="aimAssist(this)">
+                </div>
+            </div>
+
+            <div style="background: rgba(139, 92, 246, 0.2); border: 1px solid #8b5cf6; border-radius: 8px; padding: 10px; margin-top: 10px; font-size: 12px; color: #8b5cf6;">
+                ⚡ <strong>THÔNG BÁO:</strong> Key này chỉ hoạt động trên máy của bạn! Khi hết hạn vui lòng mua key mới.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
